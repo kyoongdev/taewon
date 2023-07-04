@@ -17,8 +17,6 @@ const sequelize = new Sequelize(dbconfig);
  * from models directories
  */
 
-console.log(dbconfig);
-
 fs.readdirSync(__dirname)
   .filter(
     (file) =>
@@ -29,7 +27,6 @@ fs.readdirSync(__dirname)
     db[model.name] = model;
   });
 Object.keys(db).forEach((modelName) => {
-  console.log("db: ", db);
   if (db[modelName].associate) {
     db[modelName].associate(db);
   }
