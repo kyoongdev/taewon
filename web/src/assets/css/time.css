@@ -1,0 +1,111 @@
+.time_warpper {
+    
+}
+
+.hour, .minute, .ampm {
+    float: left;
+    position: relative;
+}
+
+.hour > span {
+    position: absolute;
+    left: 80%;
+    margin-top: 10%;
+    z-index: 2;
+}
+
+input[name=hour], input[name=minute], input[name=ampm] {
+    border: 1px solid blue;
+}
+
+input[name=hour]:focus-visible
+, input[name=minute]:focus-visible
+, input[name=ampm]:focus-visible {
+    outline: 0;
+}
+
+input[name=hour] {
+    text-align: center;
+    border-right: 0px;
+    width: 35px !important;
+}
+
+input[name=minute] {
+    text-align: left;
+    border-right: 0px;
+    border-left: 0px;
+    width: 25px !important;
+}
+
+input[name=ampm] {
+    text-align: left;
+    border-left: 0px;
+    width: 60px !important;
+}
+
+.time_inner {
+    position: absolute;
+    top: -230px;
+    background-color: #fff;
+    width: 200px;
+    height: 300px;
+    border: 1px solid blue;
+    border-radius: 15px;
+    z-index: 10;
+}
+
+.inner_hour, .inner_minute, .inner_ampm {
+    position: relative;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    float: left;
+    width: 66px;
+    height: 300px;
+}
+
+.inner_hour::-webkit-scrollbar, 
+.inner_minute::-webkit-scrollbar, 
+.inner_ampm::-webkit-scrollbar {
+    display:none;
+}
+
+.inner_hour > p, .inner_minute > p, .inner_ampm > p {
+    width: 70%;
+    background-color: darkgrey;
+    border-radius: 15px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.inner_hour > p:hover, .inner_minute > p:hover, .inner_ampm > p:hover {
+    background-color: #b2d5ff;
+}
+
+.inner_ampm > p {
+    position: absolute;
+    width: 70%;
+}
+
+.inner_ampm > .am {
+    bottom: -1.5%;
+}
+
+.inner_ampm > .pm {
+    bottom: 15%;
+}
+
+.time_btn {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 27px;
+    top: 8px;
+}
+
+.select {
+    border-radius: 15px;
+    color:white;
+    background-color: blue !important;
+}

@@ -1,0 +1,50 @@
+{
+  "name": "svr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/www.js",
+  "scripts": {
+    "api-docs": "swagger-cli bundle build/openapi.yaml --outfile build/swagger.yaml --type yaml",
+    "dev": "nodemon --watch bin/www.js"
+  },
+  "engines": {
+    "node": "v16.13.0",
+    "npm": "8.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "extend": "^3.0.2",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "node-rtsp-stream": "^0.0.9",
+    "nodemailer": "^6.7.2",
+    "path": "^0.12.7",
+    "sequelize": "^5.15.1",
+    "socket.io": "^4.4.0",
+    "swagger-cli": "^4.0.4",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-model-validator": "^3.0.21",
+    "swagger-ui-express": "^4.3.0",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.5",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

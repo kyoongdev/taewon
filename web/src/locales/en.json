@@ -1,0 +1,164 @@
+{
+  "message": "hello en i18n !!",
+  "copyright": "Copyright #year @ SkyAutoNet Corp. All rights reserved.",
+  "app_title": "",
+
+  "btn_login": "Login",
+  "btn_apply": "Apply",
+  "btn_send": "Send",
+  "btn_set": "Set",
+  "btn_sumbit": "Submit",
+  "btn_logout": "Logout",
+  "btn_update": "Update",
+  "btn_change": "Change",
+  "btn_cancel": "Cancel",
+  "btn_yes":"YES",
+  "btn_no":"NO",
+  "btn_group_setting": "Set Group",
+  "btn_route_setting": "Routes",
+
+  "txt_alert_default": "Alert Message",
+  "txt_alert_warning": "Warning",
+
+  "txt_id": "ID",
+  "txt_id_placeholder": "Please enter ID",
+  "txt_pwd": "Password",
+  "txt_pwd_placeholder": "Please enter password",
+  "txt_name": "Name",
+  "txt_name_placeholder": "Please enter name",
+  "txt_email": "Email",
+  "txt_email_placeholder": "Please enter email",
+  "txt_phone": "Phone",
+  "txt_role": "Role",
+  "txt_info": "Information",
+  "txt_search": "Search",
+  "txt_on": "ON",
+  "txt_off": "OFF",
+  "txt_change_pwd": "Change Password",
+  "txt_current_pwd": "Current Password",
+  "txt_current_pwd_placeholder": "Please enter current password",
+  "txt_new_pwd": "New Password",
+  "txt_new_pwd_placeholder": "Please enter new password",
+  "txt_new_pwd_confirm": "Confirm New Password",
+  "txt_new_pwd_confirm_placeholder": "Please repeate new password",
+  "txt_group": "Group",
+  "txt_total_count": "Total",
+  "txt_unit": "row(s)",
+  "txt_shown": "Shown",
+  "txt_no_data": "No Data to Display",
+  "txt_search_location": "Search Location",
+  "txt_logout_msg": "Do you want to log out?",
+
+  "Menu": {
+    "Operation": "Dashboard",
+    "RouteSetting": "Route Setting",
+    "Management": "Management"
+  },
+
+  "SubMenu": {
+    "Events": "Events",
+    "Routes": "Routes",
+    "Users": "Users",
+    "Vehicles": "Vehicles",
+    "Setting": "Setting"
+  },
+
+  "login": {
+    "txt_remember":"Remember Me",
+    "txt_findidpwd": "Find ID / Password"
+  },
+
+  "findidpwd": {
+    "txt_opt_id": "Find ID",
+    "txt_opt_pwd":"Find Password"
+  },
+
+  "MyPage": {
+    "txt_title": "My Page"
+  },
+
+  "Dash": {
+    "txt_list": "Vehicle List",
+    "txt_op_man": "Operation Controller",
+    "txt_detail": "Details",
+    "txt_engine": "Engine",
+    "txt_autonomous": "Autonomous Mode",
+    "txt_clean_mode": "Clean Mode",
+    "txt_charge_mode": "Charge Mode",
+    "btn_set_on":"SET ON",
+    "btn_set_off":"SET OFF",
+    "btn_turn_off": "TURN OFF",
+    "btn_em_stop": "EMERG STOP",
+    "btn_em_stop_operation": "STOP CLEAN",
+    "txt_offline": "Vehicle is offline",
+    "txt_no_stream_url": "Please set streaming url",
+    "txt_fail_to_stream": "Failed to connect streaing service",
+    "txt_stream_requesting": "Video Stream Requesting . . .",
+    "txt_streaming_url": "Camera Stream URL",
+    "txt_dgl_engine_off_msg": "Do you want to turn off engine?",
+    "txt_event_log": "Event Logs",
+    "txt_no_event": "No Event"
+  },
+
+  "VH": {
+    "no": "Vehicle's Number",
+    "status": "Vehicle's Status",
+    "speed": "Speed",
+    "battery":"Battery",
+    "water": "Water",
+    "trash": "Trash",
+    "sys_mode": "System Mode",
+    "mode":{
+      "on": "ON",
+      "off": "OFF",
+      "clean": "CLEAN",
+      "auto": "AUTO",
+      "charge": "CHARGE",
+      "parking": "PARKING"
+    }
+  },
+
+  "ROUTE":{
+    "btn_set_clean": "Set Clean",
+    "btn_register_route": "Register Route",
+    "btn_delete_route": "Delete Route",
+    "txt_alert_delete_msg": "Do you want to delete selected route?",
+    "txt_alert_set_clean_route": "Do you want to set the selected path as the cleaning path?",
+    "route_name_placeholder": "Please enter route name",
+    "table": {
+      "group": "Group Name",
+      "vh_name": "Vehicle Name",
+      "route_name": "Route Name",
+      "charge_name": "Charge Station",
+      "garage_name": "Garage Station",
+      "reserved_time": "Reserved Time",
+      "est_time": "Estimated Time"
+    },
+    "REG": {
+      "title_register": "Register Clean Route",
+      "title_update": "Update Clean Route",
+      "existing_route":"Existing Route",
+      "total_distance": "Total Distance",
+      "btn_add": "Register",
+      "select_existing_route": "Please select an existing route",
+      "select_garage_station": "Please select garage station",
+      "select_charge_station": "Please seelct charge station"
+    }
+  },
+
+  "ComEvent": {
+    "c_login": "Login (Online)",
+    "c_logout": "Logout (Offline)",
+    "c_route": "Set Route",
+    "c_charge": "Set Charge Mode",
+    "c_garage": "Set Back to Garage",
+    "c_stream_info": "Set Streaming Info",
+    "c_stream_start": "Start Streaming",
+    "c_stream_stop": "Stop Streaming",
+    "c_clean_route": "Set Clean Route",
+    "c_autonomous": "Set Autonomous Mode",
+    "c_cleaning": "Set Clean Mode",
+    "e_update_info": "Location",
+    "c_emergency": "Emergency , Data: (0: Release, 1: Stop, 2: Evacuation, 3: Return)"
+  }
+}

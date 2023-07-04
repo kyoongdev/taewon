@@ -1,0 +1,81 @@
+body{
+    position:relative;
+    font-family: 'NanumSquare', sans-serif;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+    padding-right:0;
+    padding-left:0;
+}
+ul{
+    padding:0;
+}
+ul > li{
+    list-style:none;
+}
+a{
+    text-decoration: none !important;
+}
+.font-14{
+    font-size:14px;
+    transform: rotate(0.1deg);
+    word-break:keep-all;
+}
+.font-16{
+    font-size:16px;
+    transform: rotate(0.1deg);
+    word-break:keep-all;
+}
+.table-box::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+.table-box::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+/* Handle */
+.table-box::-webkit-scrollbar-thumb {
+    background: #E6E6E6;
+    border-radius: 7px;
+
+}
+
+/* Handle on hover */
+.table-box::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    cursor:pointer;
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 96px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        height: 100%;
+    }
+
+    .navbar-collapse.collapsing {
+        height: 100%;
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        height: 100%;
+        left: 0;
+        /* transition: left 400ms ease-in-out; */
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        /* transition: left 400ms ease-in; */
+    }
+}
+
+
+.dropdown-toggle::after{
+    display:none;
+}

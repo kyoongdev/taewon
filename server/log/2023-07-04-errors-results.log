@@ -1,0 +1,1 @@
+2023-07-04 15:09:04 error: error ,Error during processing request: http://localhost:8000/api/v1/login details message: Table 'vclean.tbl_user' doesn't exist
